@@ -9,5 +9,8 @@ function drag(id){
 	obj.onmousedowm = function(e){
 		disX = e.pageX - obj.offsetLeft;
 		disY = e.pageY - obj.offsetTop;
+		document.onmousemove = function(){
+			console.log("new1");
+		}
 	}
 }
