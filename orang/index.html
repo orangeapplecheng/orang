@@ -4,11 +4,16 @@
 	<meta charset="UTF-8">
 	<title>git-test</title>
 	<style>
-		#div1 {}
+	    html,body {margin:0; padding:0;}
+		#div1 {width:100px; height:100px; background: blue; color: #fff; text-align: center; line-height: 100px; position: absolute; cursor: all-scroll; box-shadow: 10px 10px 10px rgba(60,110,210,0.6);}
 	</style>
 	<script type="text/javascript" src="test.js"></script>
 </head>
 <body>
-	<h3>git-test</h3>
+	<div id="div1">git-test</div>
+	<script type="text/javascript">
+
+		drag("div1");
+	</script>
 </body>
 </html>
